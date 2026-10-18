@@ -1,1 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Handcrafted by Heaven | Jewelry Art and Accessories</title>
+  <meta name="description" content="Handmade beaded bracelets, keychains, phone charms and earrings by Knevaeh Myers. See the collection and find the next jewelry swap meet or pop-up.">
+  <meta name="theme-color" content="#caf5a9">
 
+  <!-- Social share preview (TODO: switch to https://www. if the site lives on www) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Handcrafted by Heaven">
+  <meta property="og:title" content="Handcrafted by Heaven | Jewelry Art and Accessories">
+  <meta property="og:description" content="Handmade beaded jewelry, keychains and phone charms by Knevaeh Myers.">
+  <meta property="og:url" content="https://handcraftedbyheaven.com/">
+  <meta property="og:image" content="https://handcraftedbyheaven.com/images/brand/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/brand/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/brand/icon-512.png">
+  <link rel="apple-touch-icon" href="images/brand/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mali:wght@400;500;600;700&family=Patrick+Hand&family=Sacramento&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preload" as="image" href="images/brand/lettering.png">
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER (same on every page) ============ -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="Handcrafted by Heaven, home">
+        <img src="images/brand/wordmark.png" alt="Handcrafted by Heaven" width="900" height="375">
+      </a>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <a href="index.html" data-nav="home">Collection</a>
+        <a href="events.html" data-nav="events">Events</a>
+        <a href="gallery.html" data-nav="gallery">Gallery</a>
+        <a href="about.html" data-nav="about">Meet the Creator</a>
+      </nav>
+      <div class="header-social">
+        <a class="icon-btn" data-link="instagram" aria-label="Instagram"></a>
+        <a class="icon-btn" data-link="facebook" aria-label="Facebook"></a>
+      </div>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO: the business-card circle ============ -->
+    <section class="hero" aria-label="Welcome">
+      <img class="cloud cloud--tl" src="images/clouds/corner.svg" alt="" aria-hidden="true">
+      <img class="cloud cloud--tr" src="images/clouds/corner.svg" alt="" aria-hidden="true">
+      <img class="cloud cloud--bank" src="images/clouds/bank.svg" alt="" aria-hidden="true">
+
+      <div class="wrap hero__inner">
+        <div class="badge-circle">
+          <!-- TODO: swap images/brand/lettering.png for the finished logo artwork when it's ready -->
+          <h1 class="visually-hidden">Handcrafted by Heaven: Jewelry Art and Accessories</h1>
+          <img class="badge-circle__lettering" src="images/brand/lettering.png" alt="" width="1400" height="811">
+          <p class="badge-circle__by">by Knevaeh Myers</p>
+
+          <span class="sparkle sparkle--a" aria-hidden="true"></span>
+          <span class="sparkle sparkle--b" aria-hidden="true"></span>
+          <span class="sparkle sparkle--c" aria-hidden="true"></span>
+          <span class="sparkle sparkle--d" aria-hidden="true"></span>
+
+          <div class="stamp" aria-hidden="true">
+            <svg viewBox="0 0 120 120">
+              <defs><path id="stamp-path" d="M60,60 m-42,0 a42,42 0 1,1 84,0 a42,42 0 1,1 -84,0"/></defs>
+              <g class="stamp__text">
+                <text><textPath href="#stamp-path" textLength="262">made with love • made by hand • </textPath></text>
+              </g>
+              <path d="M60 75c-15-9-17-21-9.5-24.5 4.4-2 8 .7 9.5 4 1.5-3.3 5.1-6 9.5-4C77 54 75 66 60 75z" fill="#fff" stroke="#161616" stroke-width="2.2" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </div>
+
+        <p class="hero__lede">Handmade beaded bracelets, keychains, phone charms and earrings, made one at a time.</p>
+        <div class="hero__cta">
+          <a class="btn" href="#collection">See the collection</a>
+          <a class="btn btn--ghost" href="events.html">Find me at an event</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NEXT EVENT (pulled from content.js) ============ -->
+    <section class="band band--green next-band" aria-labelledby="next-title">
+      <h2 id="next-title" class="visually-hidden">Next event</h2>
+      <div class="wrap">
+        <div class="next-event" data-render="next-event" data-reveal></div>
+      </div>
+      <div class="cloud-edge" aria-hidden="true"><i></i><i></i><i></i></div>
+    </section>
+
+    <!-- ============ THE COLLECTION (pulled from content.js) ============ -->
+    <section class="section section--tight-top section--edge-bottom" id="collection" aria-labelledby="collection-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="kicker">the</p>
+          <h2 class="script-title" id="collection-title">Collection</h2>
+          <p class="section-lede">Every piece is beaded and put together by hand, so no two are exactly alike. Tap any piece for a closer look.</p>
+        </header>
+
+        <div class="filters" data-render="filters" role="group" aria-label="Filter the collection"></div>
+        <ul class="tags" data-render="collection"></ul>
+
+        <aside class="note" data-reveal>
+          <img src="images/brand/doodle-tools.png" alt="" width="314" height="361" loading="lazy">
+          <div>
+            <h3>Fall in love with a piece?</h3>
+            <p>Nothing is sold online just yet. Come find it in person at my next event, or send me a message to ask about it.</p>
+            <div class="btn-row">
+              <a class="btn btn--small" href="events.html">Upcoming events</a>
+              <a class="btn btn--small btn--ghost" data-link="email">Message me</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+      <div class="cloud-edge cloud-edge--to-mist" aria-hidden="true"><i></i><i></i><i></i></div>
+    </section>
+
+    <!-- ============ MEET THE MAKER teaser ============ -->
+    <section class="band band--mist creator-teaser" aria-labelledby="maker-title">
+      <div class="wrap split">
+        <div class="portrait" data-reveal>
+          <img class="portrait__photo" data-about="photo" src="images/creator/knevaeh.webp" alt="Knevaeh Myers, the maker behind Handcrafted by Heaven" width="1000" height="1000" loading="lazy">
+          <img class="portrait__doodle" src="images/brand/doodle-ring.png" alt="" aria-hidden="true" loading="lazy">
+        </div>
+        <div class="split__text" data-reveal style="--i:2">
+          <p class="kicker">meet the maker</p>
+          <h2 class="script-title" id="maker-title">Hi, I'm Knevaeh</h2>
+          <p data-render="bio-teaser"></p>
+          <a class="btn" href="about.html">Read my story</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER (same on every page) ============ -->
+  <footer class="site-footer">
+    <div class="cloud-edge" aria-hidden="true"><i></i><i></i><i></i></div>
+    <div class="wrap footer-inner">
+      <a class="footer-brand" href="index.html"><img src="images/brand/wordmark.png" alt="Handcrafted by Heaven" width="900" height="375" loading="lazy"></a>
+      <p class="footer-tag">Jewelry Art and Accessories</p>
+      <div class="social-row">
+        <a class="social-btn" data-link="email">Email</a>
+        <a class="social-btn" data-link="instagram">Instagram</a>
+        <a class="social-btn" data-link="facebook">Facebook</a>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Collection</a>
+        <a href="events.html">Events</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">Meet the Creator</a>
+      </nav>
+      <p class="fine">&copy; <span data-year>2026</span> Handcrafted by Heaven &middot; made with <span class="heart">&hearts;</span> by Knevaeh Myers</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/content.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
